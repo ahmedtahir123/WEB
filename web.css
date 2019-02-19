@@ -1,0 +1,57 @@
+*{
+margin:0%;
+}
+div form{
+	background-color: lightgrey;
+height: 100%;
+	width: 50%;
+	margin-left: 250px;
+	margin-top: 100px;
+	border-radius: 5px ;
+
+}
+div form input[type="text"]{
+
+width: 80%;
+height: 35px;
+margin-left: 50px;
+margin-top: 5px;
+border-radius: 5px ;
+padding-left: 20px;
+}
+
+div form input[type="radio"]{
+margin-left: 100px;
+}
+
+div form input[type="checkbox"]{
+margin-left: 70px;
+
+
+}
+
+div form input[type="text"]:focus{
+background-color: lightgrey;
+
+}
+div form label{
+
+	padding-left: 40px;
+	font-size: 20px;
+}
+
+div  [id="btn"]{
+	width: 80%;
+	margin-left: 40px;
+	height: 40px;
+	border-radius: 10px;
+
+}
+div input[id="btn"]:hover {
+	background-color: green;
+}
+div table textarea{
+	border-radius: 5px;
+	columns: 170;
+
+}
